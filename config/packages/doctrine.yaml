@@ -30,7 +30,11 @@ doctrine:
         mappings:
             SonataUserBundle: ~
             FOSUserBundle: ~
+            ApplicationSonataNotificationBundle: ~
+            SonataNotificationBundle: ~
             ApplicationSonataUserBundle: ~
+            ApplicationSonataPageBundle: ~ # only once the ApplicationSonataPageBundle is generated
+            SonataPageBundle: ~
             ApplicationEntity:
                     type: annotation
                     dir: '%kernel.project_dir%/src/Entity'

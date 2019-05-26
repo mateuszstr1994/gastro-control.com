@@ -6,7 +6,7 @@
 parameters:
     locale: 'en'
     mailer_user: mateuszstr1994@gmail.com
-  
+    
 services:
     # default configuration for services in *this* file
     _defaults:
