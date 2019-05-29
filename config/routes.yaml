@@ -5,7 +5,11 @@
 sonata_cache_cache:
     resource: '@SonataCacheBundle/Resources/config/routing/cache.xml'
     prefix: /
-    
+#Potrzebuje ten routing aby sie odwolac do checker fos_user_security_check
+fos_user: 
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml" 
+
 app_directory:
-    resource: "../src/Resources/config/routing/routing.yml"
-    prefix:   /
+    # loads routes from the YAML or XML files found in that directory
+    resource: '../src/Resources/config/routing/'
+    type:     directory 
