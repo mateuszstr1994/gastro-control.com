@@ -1,10 +1,4 @@
 {
-    "alchemy/binary-driver": {
-        "version": "v2.0.0"
-    },
-    "behat/transliterator": {
-        "version": "v1.2.0"
-    },
     "cocur/slugify": {
         "version": "v3.2"
     },
@@ -102,8 +96,8 @@
     "egulias/email-validator": {
         "version": "2.1.7"
     },
-    "evenement/evenement": {
-        "version": "v2.1.0"
+    "exsyst/swagger": {
+        "version": "v0.4.1"
     },
     "facebook/webdriver": {
         "version": "1.6.0"
@@ -111,11 +105,20 @@
     "fig/link-util": {
         "version": "1.0.0"
     },
+    "friendsofsymfony/rest-bundle": {
+        "version": "2.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "2.2",
+            "ref": "258300d52be6ad59b32a888d5ddafbf9638540ff"
+        },
+        "files": [
+            "config/packages/fos_rest.yaml"
+        ]
+    },
     "friendsofsymfony/user-bundle": {
         "version": "v2.1.2"
-    },
-    "gedmo/doctrine-extensions": {
-        "version": "v2.4.37"
     },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
@@ -129,17 +132,24 @@
     "monolog/monolog": {
         "version": "1.24.0"
     },
-    "neutron/temporary-filesystem": {
-        "version": "2.3.0"
+    "nelmio/api-doc-bundle": {
+        "version": "3.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "3.0",
+            "ref": "c8e0c38e1a280ab9e37587a8fa32b251d5bc1c94"
+        },
+        "files": [
+            "config/packages/nelmio_api_doc.yaml",
+            "config/routes/nelmio_api_doc.yaml"
+        ]
     },
     "nikic/php-parser": {
         "version": "v4.2.1"
     },
     "ocramius/proxy-manager": {
         "version": "2.1.1"
-    },
-    "php-ffmpeg/php-ffmpeg": {
-        "version": "v0.13"
     },
     "phpdocumentor/reflection-common": {
         "version": "1.0.1"
@@ -227,6 +237,9 @@
     "sonata-project/exporter": {
         "version": "2.0.1"
     },
+    "sonata-project/google-authenticator": {
+        "version": "2.2.0"
+    },
     "sonata-project/notification-bundle": {
         "version": "3.4",
         "recipe": {
@@ -261,18 +274,6 @@
     },
     "sonata-project/user-bundle": {
         "version": "4.3.0"
-    },
-    "stof/doctrine-extensions-bundle": {
-        "version": "1.2",
-        "recipe": {
-            "repo": "github.com/symfony/recipes-contrib",
-            "branch": "master",
-            "version": "1.2",
-            "ref": "6c1ceb662f8997085f739cd089bfbef67f245983"
-        },
-        "files": [
-            "config/packages/stof_doctrine_extensions.yaml"
-        ]
     },
     "swiftmailer/swiftmailer": {
         "version": "v6.2.1"
@@ -644,6 +645,12 @@
     "webmozart/assert": {
         "version": "1.4.0"
     },
+    "willdurand/jsonp-callback-validator": {
+        "version": "v1.1.0"
+    },
+    "willdurand/negotiation": {
+        "version": "v2.3.1"
+    },
     "zendframework/zend-code": {
         "version": "3.3.1"
     },
@@ -652,5 +659,8 @@
     },
     "zendframework/zenddiagnostics": {
         "version": "v1.5.0"
+    },
+    "zircote/swagger-php": {
+        "version": "2.0.14"
     }
 }
