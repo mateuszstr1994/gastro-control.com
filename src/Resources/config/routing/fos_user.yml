@@ -1,7 +1,17 @@
 ## YAML Template.
 ---
+
+fos_user_registration_register:
+    path: /register
+    defaults:
+        _controller: App\Controller\RegistrationController::registerAction
+        
+fos_user_registration_confirm:
+    path: registration/confirm/{token}
+    defaults:
+        _controller: App\Controller\RegistrationController::confirmAction
       
 fos_user_security_login:
-    path: /logowanie
+    path: /login
     defaults:
         _controller: App\Controller\SecurityController::loginAction
